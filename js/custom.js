@@ -83,9 +83,9 @@ var YashAdmin = function(){
 	var handleMinHeight = function() {
 		var win_h = window.outerHeight;
 		var win_h = window.outerHeight;
-		if (win_h > 0 ? win_h : screen.height) {
-			$(".content-body").css("min-height", (win_h + 0) + "px");
-		};
+		// if (win_h > 0 ? win_h : screen.height) {
+		// 	$(".content-body").css("min-height", (win_h + 0) + "px");
+		// };
 	}
     
 	var handleDataAction = function() {
