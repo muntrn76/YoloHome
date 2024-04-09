@@ -55,5 +55,5 @@ function clipCircle(percent) {
   $(function() {
     //console.log(clipCircle(10));
     animatePercent();
-    $('html').click(function(){count=0});
+    $('div.humidity').click(function(){count=0});
   })();
