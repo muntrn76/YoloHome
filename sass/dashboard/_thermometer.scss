@@ -1,4 +1,17 @@
 .thermometer{
+  .thermometer-body{
+    @import url('https://fonts.googleapis.com/css?family=Jaldi&display=swap');
+
+body {
+	display: flex;
+	height: 100vh;
+	margin: 0;
+	background:	#3d3d44;
+	font-family: 'Jaldi', sans-serif;
+	font-size: 14px;
+	color: white;
+}
+  }
     #wrapper {
         margin: auto;
         display: flex;

@@ -28,7 +28,7 @@
         transition:  0.3s;
     }
     input[type="checkbox"]:after{
-        content: "65fc";
+        content: "OFF";
         position: absolute;
         font-family: 'Montserrat',sans-serif;
         color: #d5d5d5; /*#ff6161*/
@@ -46,7 +46,7 @@
         left: $in-size + 8px;
     }
     input[type="checkbox"]:checked:after{
-        content: "50lx";
+        content: "ON";
         color: #19d28f;
     }
     
