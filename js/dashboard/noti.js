@@ -165,9 +165,9 @@ function deleteAll() {
 function getMessageBasedOnType(type, user) {
 	let message;
 	if (type === "postLiked") {
-		message = `${user} liked your post`;
+		message = `${user} Oh Fuck someone in your house`;
 	} else if (type === "comment") {
-		message = `${user} commented on your post`;
+		message = `${user} warning`;
 	} else if (type === "imageLiked") {
 		message = `${user} liked your image`;
 	} else if (type === "commentLiked") {

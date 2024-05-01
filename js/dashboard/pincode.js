@@ -48,79 +48,79 @@ for(var count =1; count<13;count++){
   function func(){
   nums[0].onclick = function(){
     if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "1";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "1";
     counter= counter+1
     }//else{check()} For Auto Check
   };
   nums[1].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "2";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "2";
     counter= counter+1
       }
   };
   
   nums[2].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "3";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "3";
     counter= counter+1
     }
   };
   
   nums[3].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "4";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "4";
     counter= counter+1
     }
   };
   
   nums[4].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "5";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "5";
     counter= counter+1
     }
   };
   
   nums[5].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "6";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "6";
     counter= counter+1
     }
   };
   nums[6].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "7";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "7";
     counter= counter+1
     }
   };
   
   nums[7].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "8";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "8";
     counter= counter+1
     }
   };
   nums[8].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "9";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "9";
     counter= counter+1
     }
   };
   
   nums[9].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "#";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "#";
     counter= counter+1
     }
   };
     nums[10].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "0";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "0";
     counter= counter+1
     }
   };
     nums[11].onclick = function(){
       if(counter<4){
-      document.querySelector("input").value = document.querySelector("input").value + "*";
+      document.querySelector("input.field").value = document.querySelector("input.field").value + "*";
     counter= counter+1
     }
   };
@@ -128,7 +128,7 @@ for(var count =1; count<13;count++){
   document.querySelector("div").classList.add("animated")
   var animation="bounce"
   function check(){
-    if(document.querySelector("input").value=="2002"){
+    if(document.querySelector("input.field").value=="2002"){
       document.querySelector("h2").innerHTML = "Correct";
       document.querySelector("div").classList.add("animated","bounceOut");
     }else{
